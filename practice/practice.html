@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' https://www.gstatic.com;">
+    <title>Word Practice</title>
+    <link rel="stylesheet" href="practice.css">
+</head>
+<body>
+
+<div id="container">
+    <div id="sidebar">
+        <div id="sidebar-header">
+            <img src="whitebook.png" alt="VocabHub Logo">
+            <span>VocabHub</span>
+        </div>
+        <ul>
+            <li><a href="#">Profile</a></li>
+            <li><a href="#">Saved Words</a></li>
+            <li><a href="#">Practice</a></li>
+            <!-- Add more items as needed -->
+        </ul>
+    </div>
+
+    <div id="practice-container">
+        <div id="word-list">
+            <h2>Saved Words</h2>
+            <ul id="saved-words"></ul>
+        </div>
+        <div id="result-message"></div>
+    </div>
+</div>
+<script src = "firebase-database.js"></script>
+<script src= "practice.js"></script>
+
+</body>
+</html>

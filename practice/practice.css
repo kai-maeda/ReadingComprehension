@@ -1,0 +1,117 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    display: flex;
+    min-height: 100vh; /* Ensure the container covers at least the full viewport height */
+}
+
+#sidebar {
+    width: 200px;
+    background-color: #FFA500; /* Orange color */
+    padding-top: 20px;
+    position: fixed; /* Fixed position */
+    height: 100%;
+}
+
+#sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+#sidebar a {
+    display: block;
+    padding: 15px; /* Increased padding for better visibility */
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    font-size: 18px; /* Increased font size */
+    font-weight: bold; /* Bold text */
+}
+
+#sidebar a:hover {
+    background-color: #FF8C00; /* Darker orange color on hover */
+}
+
+#sidebar .active {
+    background-color: #FF8C00; /* Darker orange color for active state */
+}
+
+#sidebar-header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+#sidebar-header img {
+    width: 50px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 10px; /* Add some margin to the right of the image */
+}
+
+#sidebar-header span {
+    font-family: inherit;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+}
+
+#practice-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-left: 200px; /* Adjusted for the width of the sidebar */
+    flex-grow: 1;
+    height: 100%; /* Set height to 100% */
+}
+
+#word-list {
+    margin-top: 20px;
+    font-size: 24px; /* Increased text size */
+    text-align: center; /* Align text to the center */
+    padding: 0;
+}
+
+#practice-button {
+    padding: 12px 20px;
+    font-size: 20px; /* Increased font size */
+    cursor: pointer;
+    background-color: #FFA500;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+#practice-button:hover {
+    background-color: #FF8C00;
+}
+
+#result-message {
+    margin-top: 20px;
+    font-weight: bold;
+    color: green;
+}
+
+.word-item {
+    display: block;
+    margin-bottom: 10px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    padding: 15px;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+.word-definition {
+    font-style: italic;
+    color: #555;
+}

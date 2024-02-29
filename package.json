@@ -1,0 +1,24 @@
+{
+  "name": "hackathon",
+  "version": "1.0.0",
+  "description": "As google chrome manifest is upgraded from MV2 to MV3 i have developed a simple mechanism to add firebase and password Authentication in a chrome extension in a best simple Possible way.BOOm you are now ready to go.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NevMan1/Hackathon.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NevMan1/Hackathon/issues"
+  },
+  "homepage": "https://github.com/NevMan1/Hackathon#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-uglify": "^3.0.2"
+  }
+}
